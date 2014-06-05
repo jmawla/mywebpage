@@ -1,0 +1,57 @@
+.headerFormat{
+	text-align: center;
+	font-family: fantasy;
+	font-weight: 600;
+	color: #c50000;
+	padding: 20px;
+}
+
+.h1{
+	text-align: center;
+	font-family: fantasy;
+	font-weight: 600;
+	color: #c50000;
+}
+
+.linkTo{
+	position: relative;
+	z-index: 2;
+	text-align: center;
+	list-style-type: none;
+	margin: 5px;
+}
+
+.linkTo li{
+	height: 50px;
+}
+
+.img{
+	float: right;
+	padding-right: 20px; 
+	width: 50%;
+	height: auto;
+	z-index: 3;
+}
+
+
+.ingredients{
+	font-style: italic; 
+	list-style-type: square;
+}
+
+.bg {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: url(images/Organic-Foods-590x480.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;	
+	background-size: cover;
+	opacity: .07;
+
+}
+

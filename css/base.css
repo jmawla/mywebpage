@@ -1,0 +1,146 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+#container {
+	width: 800px;
+	border-left: 1px solid #333;
+	border-right: 1px solid #333;
+	margin: auto;
+}
+
+#topNavBlock {
+	height: 100px;
+	background: linear-gradient(to bottom, #2799c6 16%, #006599 100%);
+	bottom: 0;
+}
+
+#topNavBlock ul {
+	list-style-type: none;
+/*	width: 50%;*/
+	float: right;
+/*	margin-top: 55px;*/
+/*	padding-top: 55px;*/
+}
+
+.navBar {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 55px;
+	padding-left: 320px;
+	position: fixed;
+}
+
+#topNavBlock ul li {
+	text-align: center;
+	width: 100px;
+	display: inline-block;
+	border-left: 3px groove #6e6e6e;
+}
+
+.subMenuNav {
+	display: block;
+	margin-top: 0px;
+	padding-left: 0px;
+/*	padding: 0px 53px 0px 0px;*/
+}
+
+.subMenuNav>li {
+	display: block;
+	height: 24px;
+	width: 100%;
+	border-top: 1px groove #6b6b6b;
+	vertical-align: middle;
+	padding-top: 4px;
+	padding-bottom: 4px;
+/*	margin-left: -30px;
+	margin-right: 3px;*/
+}
+
+.subMenuNav>li:first-child {
+	margin-top: -3px;
+}
+
+
+
+a {
+	text-decoration: none;
+	font-family: geneva;
+	font-size: 18px;
+	font-weight: bold;
+	color: wheat;
+}
+
+#sideBlock {
+	width: 800px;
+	height: 600px;
+}
+
+#projContainer {
+	float: left;
+	width: 30%;
+	height: 100%;
+	background: linear-gradient(to left, #cccccc 6%, #161616 100%);
+/*	background: #dedede;
+	margin-top: 5%;*/
+	text-align: center;
+	color: white;
+	display: block;
+	font-family: cursive;
+}
+
+#projContainer>ul>li {
+	list-style-type: none;
+}
+
+#projContainer>ul {
+	padding-left: 0px;
+}
+
+.projBlocks {
+	padding-top: 5%;
+/*	padding-left: 20%;*/
+	color: white;
+}
+
+/*#blog {
+	background: #dedede;
+	height: 40%;
+	width: 67.5%;
+	margin-top: 5%;
+	float: left;
+	color: black;
+}*/
+
+#footer {
+	color: white;
+	width: 800px;
+	height: 40px;
+	margin: auto;
+	background: black;
+	position: fixed;
+	bottom: 0px;
+	float: left;
+}
+
+#login {
+	float: left;
+	width: 34%;
+	height: 140px;
+	background: gray;
+}
+
+#policy {
+	float: left;
+	width: 33%;
+	height: 140px;
+	background: green;
+}
+
+#contactUs {
+	float: left;
+	width: 33%;
+	height: 140px;
+	background: blue;
+}
