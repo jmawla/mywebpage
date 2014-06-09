@@ -12,10 +12,10 @@ $(document).ready(function() {
 	});
 	$('.popUpMenuItem').mouseenter(function(event) {
 		/* Act on the event */
-		$(this).css('background', '#6e6e6e');
+		$(this).css('background', '#a8a8a8');
 	});
 	$('.popUpMenuItem').mouseleave(function(event) {
 		/* Act on the event */
-		$(this).css('background', '$4b4b4b');
+		$(this).css('background', '#4b4b4b');
 	});
 });

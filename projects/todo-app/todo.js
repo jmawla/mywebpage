@@ -6,7 +6,7 @@ $(document).ready(function() {
 	var CR_KEY = 13;
 	var ESC_KEY = 27;
 	var inputStorage = new Array;	//array of objects for storage
-	localStorage.setItem('todos', JSON.stringify(inputStorage));
+//	localStorage.setItem('todos', JSON.stringify(inputStorage));
 
 	var todoFunc = {
 		uuid: function () { 
@@ -94,6 +94,7 @@ $(document).ready(function() {
 		// reload entries from storage
 		populateStorage: function() {
 			inputStorage = JSON.parse(localStorage.getItem("todos"));
+			//check if inputStorage is null
 			if(inputStorage.length > 0) {
 				for(var key=0 ; key<inputStorage.length ; key++) {
 					todoFunc.addEntry(inputStorage[key].name, inputStorage[key].id, inputStorage[key].completed);
