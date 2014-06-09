@@ -4,6 +4,7 @@ $(document).ready(function() {
 		$(this).css('background', '-webkit-linear-gradient(to bottom, #2799c6 16%, #006599 100%)');
 		var $children = $(this).children('.subMenuNav');
 		$children.slideDown('fast');
+		$children.css('background', '#a8a8a8');
 	});
 	$('.topMenu').mouseleave(function() {
 		$(this).css('background','none');
